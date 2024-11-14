@@ -1,3 +1,5 @@
+## Load Capacity Analysis Code
+
 import math
 
 # Constants and parameters
@@ -94,3 +96,4 @@ for finger, adj_torque in adjusted_finger_torques.items():
 print("\nPractical Load Capacity:")
 print(f"Maximum Practical Load Capacity (N): {practical_load_capacity:.2f} N")
 print(f"Maximum Practical Load Capacity (lb): {practical_load_capacity / 4.448:.2f} lb")  # Converting N to pounds
+
